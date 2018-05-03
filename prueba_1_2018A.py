@@ -2,7 +2,7 @@
 """
 Created on Wed May  2 21:28:54 2018
 
-@author: Fernando Sanmartin
+@author: Fernando Sanmartin, Juan Collahuaso, Omar Espin
 """
 
 # -*- coding: utf-8 -*-
