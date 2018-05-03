@@ -15,16 +15,22 @@ def restar(a, b):
 def multiplicar(a, b):
     return a * b;
  
-num1 = input("Ingrese Arista: ")
+
 
  
 print("Opciones\n1.- Volumen Cubo\n2.- Restar\n3.- Multiplicar")
+
+
  
 operaciones = { '1': Volumen_Cubo, '2': restar, '3': multiplicar}
  
 seleccion = input('Escoge una: ')
+
 try:
+    num1 = input("Ingrese Arista: ")
     resultado = operaciones[seleccion](int(num1))
     print (resultado)
 except:
     print("Esa no vale")
+    
+    
