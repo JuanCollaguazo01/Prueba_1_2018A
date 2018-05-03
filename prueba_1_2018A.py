@@ -24,7 +24,7 @@ operaciones = {'1': Volumen_Cubo, '2': Volumen_Piramide_Triangular, '3': Volumen
 def menu():
 
     os.system('cls')  # Función que limpia la pantalla y muestra nuevamente el menu
-    print (" ")
+    print(" ")
     print("Calculo de volumen de figuras geometricas")
     print("1 - Cubo")
     print("2 - Piramide Base Triangular")
@@ -41,7 +41,7 @@ while True:
 
     print("")
     opcionMenu = input("inserta un numero para elegir la opcion que desea: ") # solicitamos una opción al usuario
-    seleccion = input('ingrese el mismo numero correspondiente al que usted deseo : ') #selecciona el arreglo que declaramos y guarda las funciones, da el valor
+    seleccion = opcionMenu
 
     if opcionMenu == "1":
         print("")
